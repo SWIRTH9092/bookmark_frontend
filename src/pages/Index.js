@@ -5,19 +5,38 @@
 //----------------------
 //  import dependencies
 //----------------------
+import React from "react";
 import { Form, Link, useLoaderData } from "react-router-dom" 
 
 function Index (props) {
     //define list of bookmarks from loader data
     const bookmarks = useLoaderData();
-
+    const [title, setTitle] = React.useState('');
+    const [url, setUrl] = React.useState('');
     
     return (
         <div>
             <h2>Add a new bookmark</h2>
-            <Form action="/create" method="post">
-                <input type="input" name="title" placeholder="website" />
-                <input type="input" name="url" placeholder="http//" />
+            <Form 
+                onSubmit={(event) => {
+                    setUrl('')
+                    setTitle('')
+                }}
+                action="/create"
+                method="post"
+                >
+                <input type="input" name="title" placeholder="website" value={title}
+                    onChange={e => {
+                        setTitle(e.target.value)
+                    }}
+                />
+                <input type="input" name="url" placeholder="http" value={url}
+                    onChange={e => {
+                        setUrl(e.target.value)
+                    }}
+                />
+
+
                 <input type="submit" value="Add" />
             </Form>
 
