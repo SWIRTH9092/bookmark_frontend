@@ -1,0 +1,43 @@
+// --------------------------
+// VARIABLES
+// --------------------------
+$maincolor: black;
+$contrastcolor: red;
+
+@mixin black-text-red-bg {
+  color: $contrastcolor;
+  background-color: $maincolor;
+}
+
+@mixin red-text-black-bg {
+  color: $maincolor;
+  background-color: $contrastcolor;
+}
+
+// --------------------------
+// Header
+// --------------------------
+
+.header {
+    @include red-text-black-bg;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+     @include red-text-black-bg;
+    }
+}
+
+nav {
+  @include red-text-black-bg;
+  display: flex;
+  justify-content: flex-start;
+
+  a {
+    @include red-text-black-bg;
+    div {
+      margin: 10px;
+      font-size: large;
+    }
+  }
+}
