@@ -41,3 +41,44 @@ nav {
     }
   }
 }
+
+.bookmark-form {
+  font-size: 1.5rem; 
+  width: 20rem;
+  margin: .5rem;
+}
+
+.bookmark-form-button {
+  font-size: 1.40rem;
+  color: white;
+  background: rgb(25, 25, 25);
+  border-radius: 10px;
+}
+.pretendButton {
+  text-decoration: none;
+  font-size: 80%;
+  background: rgb(25, 25, 25);
+  color: white;
+  border: 10px rgb(25, 25, 25);
+  padding: 2px 10px 2px 10px;
+  margin: 0 10px 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.bookmark {
+  text-align: left;
+  margin: 1% 25% 1% 25%;
+  padding: 0 1rem 0 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .bookmark {
+      text-align: left;
+      margin: 1% 2% 1% 2%;
+    }
+}
