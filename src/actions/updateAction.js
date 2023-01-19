@@ -6,7 +6,7 @@ export const updateAction = async ({request, params}) => {
     const formData = await request.formData()
 
     //set update bookmark to match schema
-    const updated = {
+    const updatedBookmark = {
         title: "string",
         url:  "string"
     }
