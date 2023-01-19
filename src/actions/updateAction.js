@@ -20,6 +20,6 @@ export const updateAction = async ({request, params}) => {
         body: JSON.stringify(updatedBookmark)
     })
 
-        // redirect to index
+        // redirect to index      
         return redirect("/")
   }
