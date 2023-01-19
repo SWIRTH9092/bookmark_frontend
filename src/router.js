@@ -13,6 +13,7 @@ import { indexLoader } from "./loaders/indexLoader"
 import { showLoader } from "./loaders/showLoader"
 import { createAction} from "./actions/createAction.js"
 import { deleteAction } from "./actions/deleteAction.js"
+import { updateAction } from "./actions/updateAction"
 
 //---------------------------------------
 //   Router Paths
