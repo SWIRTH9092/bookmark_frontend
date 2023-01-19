@@ -21,7 +21,7 @@ function Show (props) {
           <Form action ={`/update/${bookmark._id}`} method="post">
               <input type="input" name="name" placeholder="book name" />
               <input type="input" name="url" placeholder="link for bookmark website" />
-              <input type="submit" value={`update ${bookmark.name}`} />
+              <input type="submit" value={`update ${bookmark.name}`} />                
           </Form>
           
           <br></br>
