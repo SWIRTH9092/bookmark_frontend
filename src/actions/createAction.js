@@ -10,7 +10,7 @@ import { redirect }  from "react-router-dom";
 //---------------------------
 //  URL for data
 //---------------------------
-const URL = "https://bookmarkd-backend.onrender.com"
+const URL = "https://bookmar-app-backend.onrender.com"
 
 export const createAction = async ({ request }) => {
     

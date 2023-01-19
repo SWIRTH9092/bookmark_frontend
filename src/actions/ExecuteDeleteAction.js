@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 //---------------------------
 //  URL for data
 //---------------------------
-const URL = "https://bookmarkd-backend.onrender.com"
+const URL = "https://bookmar-app-backend.onrender.com"
 
 export const ExecuteDeleteAction = (id) => {
     const executeDelete = async(id) => {
