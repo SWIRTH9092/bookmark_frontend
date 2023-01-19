@@ -1,5 +1,6 @@
 import { redirect } from "react-router-dom"
 
+const URL = "https://bookmar-app-backend.onrender.com"
 export const updateAction = async ({request, params}) => {
 
     //get data from form

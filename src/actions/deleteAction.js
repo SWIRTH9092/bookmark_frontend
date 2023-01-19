@@ -12,7 +12,7 @@
 
 
 
-const URL = "https://bookmarkd-backend.onrender.com"
+const URL = "https://bookmar-app-backend.onrender.com"
 
 export const deleteAction = ({param}) => {
     console.log("in delete action", param)
