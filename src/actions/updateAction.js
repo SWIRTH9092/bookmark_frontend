@@ -8,8 +8,9 @@ export const updateAction = async ({request, params}) => {
 
     //set update bookmark to match schema
     const updatedBookmark = {
-        title: "string",
-        url:  "string"
+            title: formData.get("title"),
+            url: formData.get("url")
+        
     }
 
     // Send updated bookmark to our API
