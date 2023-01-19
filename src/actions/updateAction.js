@@ -6,9 +6,9 @@ export const updateAction = async ({request, params}) => {
     const formData = await request.formData()
 
     //set update bookmark to match schema
-    const updated = {
-        title: string,
-        url: string
+    const updatedBookmark = {
+        title: "string",
+        url:  "string"
     }
 
     // Send updated bookmark to our API
@@ -20,6 +20,6 @@ export const updateAction = async ({request, params}) => {
         body: JSON.stringify(updatedBookmark)
     })
 
-        // redirect to index
+        // redirect to index      
         return redirect("/")
   }
