@@ -21,5 +21,5 @@ export const deleteAction = async ({param}) => {
         })
         return redirect("/")
     }
-    console.log("in delete action", param)
+    //console.log("in delete action", param)
 
