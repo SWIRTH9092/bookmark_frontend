@@ -30,7 +30,7 @@ function Index (props) {
                 action="/create"
                 method="post"
                 >
-                <input type="input"  name="title" placeholder="website" value={title} className="bookmark-form" required
+                <input type="input"  name="title" placeholder="bookmark title" value={title} className="bookmark-form" required
 
                     onChange={e => {
                         setTitle(e.target.value)
