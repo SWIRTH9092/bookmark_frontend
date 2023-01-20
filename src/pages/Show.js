@@ -19,16 +19,16 @@ function Show (props) {
 
             <h2>Update {bookmark.name}</h2>
           <Form action ={`/update/${bookmark._id}`} method="post">
-              <input type="input" name="title" placeholder="book title" />
-              <input type="input" name="url" placeholder="link for bookmark website" />
-              <input type="submit" value={`update ${bookmark.title}`} />                
+              <input type="input" name="title" placeholder="bookmark title" defaultValue={bookmark.title} className="bookmark-form" />
+              <input type="input" name="url" placeholder="link for bookmark website" defaultValue={bookmark.url} className="bookmark-form"/>
+              <input type="submit" value={`update ${bookmark.title}`} className="bookmark-form-button" />                
           </Form>
                                                 
           <br></br>
 
           <h2>Delete Bookmark</h2>
           <Form action={`/delete/${bookmark._id}`} method="post">
-              <input type="submit" value ={`delete ${bookmark.title}`} />
+              <input type="submit" value ={`delete ${bookmark.title}`} className="bookmark-form-button" />
           </Form>
   
           </div>                                  
