@@ -34,7 +34,7 @@
 <br>
 - Show Page - Update a Bookmark and Delete a Bookmark
 <img src="https://i.imgur.com/wggn9QR.png" alt="update Page" title="Component Tree" width="20%"/>
-<br>
+
 ##### Component Tree
 <img src="https://i.imgur.com/pU8trOA.jpg" alt="Front-end Component Tree" title="Component Tree" width="90%"/>
 
