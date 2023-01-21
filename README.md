@@ -23,18 +23,18 @@
 
 
 ##### Website Pages Images
-Home Page - Displays all Bookmarks.  Other features: add a bookmark and link to edit a bookmark.
-
+- Home Page - Displays all Bookmarks.  Other features: add a bookmark and link to edit a bookmark.
 <img src="https://i.imgur.com/2Dfcj2y.png" alt="Home Page" title="Home Page" width="50%"/>
-
-Show Page - Edit a Bookmark and Delete a bookmark
-<img src="https://i.imgur.com/2GgZrNG.png" alt="Edit page" Title="Edit Page" width="50%"/>
-
-Responsive: Home Page. Displays all Bookmarks.  Other features: add a bookmark and link to edit a bookmark
+<br>
+- Show Page - Update a Bookmark and Delete a bookmark
+<img src="https://i.imgur.com/2GgZrNG.png" alt="Update page" Title="Edit Page" width="50%"/>
+<br>
+- Responsive: Home Page. Displays all Bookmarks.  Other features: add a bookmark and link to edit a bookmark
 <img src="https://i.imgur.com/0BtDaY9.png" alt="Home Page" title="Home Page" width="20%"/>"
+<br>
+- Show Page - Update a Bookmark and Delete a Bookmark
+<img src="https://i.imgur.com/wggn9QR.png" alt="update Page" title="Component Tree" width="20%"/>
 
-Show Page - Edit a Bookmark and Delete a Bookmark
-<img src="https://i.imgur.com/wggn9QR.png" alt="Front-end Component Tree" title="Component Tree" width="20%"/>
 ##### Component Tree
 <img src="https://i.imgur.com/pU8trOA.jpg" alt="Front-end Component Tree" title="Component Tree" width="90%"/>
 
