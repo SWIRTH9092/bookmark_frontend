@@ -47,7 +47,7 @@ function Index (props) {
             <h2>
                 {bookmarks.map(bookmark => (
                 <div key={bookmark._id} className="bookmark">
-                    <Link className="pretendButton" to={`/${bookmark._id}`}>Update/Delete</Link>
+                    <Link className="pretendButton" to={`/${bookmark._id}`}>Update</Link>
                     <a href={bookmark.url} target="_blank" rel="noreferrer" >
                             {bookmark.title}
                     </a>
